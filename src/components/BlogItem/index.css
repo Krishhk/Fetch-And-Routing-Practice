@@ -1,0 +1,70 @@
+/* Write your CSS code here */
+
+.topic-description {
+  font-family: 'Roboto';
+  font-weight: normal;
+  color: #8e8e8e;
+  font-size: 16px;
+}
+
+.link-class-name {
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.list-items {
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+.avatar-img-and-name-container {
+  display: flex;
+}
+
+.title-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.avatar-img {
+  margin-right: 12px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-top: 16px;
+}
+.img-url {
+  width: 250px;
+  height: 200px;
+}
+.all-topics-container {
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .topic-description {
+    font-size: 16px;
+  }
+  .title-heading {
+    font-size: 20px;
+  }
+
+  .img-url {
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+  }
+
+  .list-container {
+    display: flex;
+    padding: 10px;
+  }
+}
